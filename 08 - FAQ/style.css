@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+body {
+    background-color: rgba(165, 215, 242, 0.856);
+}
+
+h3 {
+    color: rgb(82, 7, 163);
+    text-align: center;
+    margin: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
