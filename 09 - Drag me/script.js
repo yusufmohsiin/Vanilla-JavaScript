@@ -3,7 +3,7 @@ let initialX = 0,
   initialY = 0;
 let moveElement = false;
 
-//Events Object
+
 let events = {
   mouse: {
     down: "mousedown",
@@ -17,9 +17,10 @@ let events = {
   },
 };
 
+
 let deviceType = "";
 
-//Detech touch device
+
 const isTouchDevice = () => {
   try {
     //We try to create TouchEvent (it would fail for desktops and throw error)
