@@ -33,20 +33,18 @@ const isTouchDevice = () => {
 
 isTouchDevice();
 
-//Start (mouse down / touch start)
+
 draggableElem.addEventListener(events[deviceType].down, (e) => {
   e.preventDefault();
-  //initial x and y points
   initialX = !isTouchDevice() ? e.clientX : e.touches[0].clientX;
   initialY = !isTouchDevice() ? e.clientY : e.touches[0].clientY;
 
-  //Start movement
   moveElement = true;
 });
 
 //Move
 draggableElem.addEventListener(events[deviceType].move, (e) => {
-  //if movement == true then set top and left to new X andY while removing any offset
+  
   if (moveElement) {
     e.preventDefault();
     let newX = !isTouchDevice() ? e.clientX : e.touches[0].clientX;
