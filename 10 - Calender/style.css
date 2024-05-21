@@ -78,7 +78,7 @@
 }
 
 .days div:hover:not(.empty){
-    border: 2px solid gray;
+    border: 2px solid rgb(185, 180, 180);
     cursor: pointer;
 }
 
