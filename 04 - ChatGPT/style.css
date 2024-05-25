@@ -1,0 +1,8 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15 27 83);
+    height: 100vh;
+    flex-direction: column;
+}
