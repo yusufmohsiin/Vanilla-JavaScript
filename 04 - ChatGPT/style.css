@@ -13,3 +13,13 @@ body {
     direction: rtl;
 }
 
+
+body,button,input{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+#main-title {
+    font-size: 100px;
+    margin: 0px;
+}
