@@ -8,10 +8,10 @@ const firstDay = new Date(new Date().getFullYear(), monthInx, 1).getDay() - 1;
 
 
 const months = [
-  "January",
-  "February",
-  "March",
-  "April",
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
   "May",
   "June",
   "July",
