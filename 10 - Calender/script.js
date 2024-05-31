@@ -19,7 +19,7 @@ const months = [
   "SEP",
   "OCT",
   "NOV",
-  "December",
+  "DEC",
 ];
 
 monthEl.innerText = months[monthInx];
